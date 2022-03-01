@@ -1,1 +1,42 @@
+<html>
+  <head>
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <nav>
+    <img class="logo-hp" src="./assets/hewlett_Packard_Enterprise.jpg"/>
+    <img class="logo-wtrade" src="./assets/WTRADE_LOGO.png"/>
+  </nav>
+  <section class="container">
+    <div class="heading">
+      <h1>HPE Management Services Event</h1>
+      <p>Por favor, rellene el siguiente formulario para confirmar su asistencia a nuesto evento.</p>
+    </div>
+    <form action="https://formspree.io/f/mdoyznvk" method="post">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="apellido" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="apellido" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="organizacion" class="form-label">Organizacion</label>
+        <input type="text" class="form-control" id="organizacion">
+      </div>
+      <div class="mb-3">
+        <label for="cargo" class="form-label">Cargo Profesional</label>
+        <input type="text" class="form-control" id="cargo">
+      </div>
+      <button type="submit" class="btn btn-success">Registrarme</button>
+    </form>
 
+  </section>
+</html>
