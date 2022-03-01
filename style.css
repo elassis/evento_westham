@@ -1,6 +1,7 @@
 body{
   background-image: url("./assets/shutterstock_670189804.jpg");
   background-size: cover;
+  background-position: right;
 }
 nav{
   width: 100%;
