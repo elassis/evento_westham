@@ -1,5 +1,6 @@
 body{
-  background-color:#330066;
+  background-image: url("./assets/shutterstock_670189804.jpg");
+  background-size: cover;
 }
 nav{
   width: 100%;
@@ -39,7 +40,9 @@ label{
 
 .heading{
   width: 350px;
-  margin: 30px auto;
+  margin: 20px auto;
+  background-color: #000000b0;
+  padding: 10px;
 }
 .heading > p {
   color:#a0a0a0;
